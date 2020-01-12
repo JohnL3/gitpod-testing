@@ -1,0 +1,57 @@
+html, body {
+	margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+.remember {
+    display: grid;
+    grid-template-columns: 125px auto;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.errors {
+    padding-left: 0;
+    list-style: none;
+    margin: 5px 0;
+    color: red;
+}
+
+.form-register,
+.form-login {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-register label,
+.form-login label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type='password'],
+input[type='text'] {
+	font-size: 20px;
+    border: navajowhite;
+    border-bottom: 1px solid gray;
+    display: block;
+    margin: 5px 0;
+    outline: navajowhite;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 7px;
+    font-size: 18px;
+    width: 100px;
+}
